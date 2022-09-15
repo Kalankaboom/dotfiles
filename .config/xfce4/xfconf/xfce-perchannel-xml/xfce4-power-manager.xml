@@ -19,5 +19,10 @@
     <property name="inactivity-sleep-mode-on-ac" type="uint" value="2"/>
     <property name="lid-action-on-ac" type="uint" value="2"/>
     <property name="dpms-enabled" type="bool" value="false"/>
+    <property name="brightness-on-battery" type="uint" value="9"/>
+    <property name="blank-on-battery" type="int" value="0"/>
+    <property name="dpms-on-battery-sleep" type="uint" value="16"/>
+    <property name="dpms-on-battery-off" type="uint" value="17"/>
+    <property name="handle-brightness-keys" type="bool" value="true"/>
   </property>
 </channel>

@@ -27,12 +27,17 @@ function clock() {
 
 function note-upload(){
 	cd ~/Documents/Notes/;
-	# git add --all -- ':!*.pdf';
-	git add --all;
+	git add --all -- ':!*.pdf';
+	git add tex -- ':!*.pdf';
+	git add md -- ':!*.pdf';
+	git add Quick_Notes -- ':!*.pdf';
+	git add cpp;
+	git add pdf;
 	printf "\n";
 	git commit -m "$(date +'%d/%m/%Y')";
 	printf "\n";
 	git push -u origin main;
+	# sudo ssmtp kalankaboom@murena.io < email.txt;
 }
 
 alias note-pull='cd ~/Documents/Notes/; git pull "git@github.com:kalankaboom/sv-notes.git";'

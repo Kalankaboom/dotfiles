@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,xfce-settings-manager.desktop,md.obsidian.Obsidian.desktop,libreoffice-startcenter.desktop,spotify.desktop,org.gimp.GIMP.desktop
-recent=timeshift-gtk.desktop,xfce-settings-manager.desktop,xfce4-file-manager.desktop,deluge.desktop,org.chromium.Chromium.desktop,blueman-manager.desktop,atril.desktop,hv3.desktop,nvim.desktop,org.gimp.GIMP.desktop
+recent=xfce-settings-manager.desktop,timeshift-gtk.desktop,xfce4-file-manager.desktop,deluge.desktop,org.chromium.Chromium.desktop,blueman-manager.desktop,atril.desktop,hv3.desktop,nvim.desktop,org.gimp.GIMP.desktop
 button-title=
 button-icon=org.xfce.panel.whiskermenu
 button-single-row=false
