@@ -8,10 +8,10 @@ alias update='sudo apt update;
 	sudo apt upgrade;
 	sudo apt autoremove --purge;
 	sudo apt autoclean;
-	flatpak update;
-	sudo snap refresh;
 	tput setaf 6;
 	figlet -ct -f kmono Complete'
+	# flatpak update;
+	# sudo snap refresh;
 
 alias asciiquarium='snap run asciiquarium'
 

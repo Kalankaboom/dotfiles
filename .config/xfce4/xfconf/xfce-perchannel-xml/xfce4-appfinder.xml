@@ -38,17 +38,14 @@
       <property name="save" type="bool" value="false"/>
     </property>
   </property>
+  <property name="enable-service" type="bool" value="false"/>
+  <property name="always-center" type="bool" value="true"/>
+  <property name="hide-category-pane" type="bool" value="true"/>
+  <property name="icon-view" type="bool" value="true"/>
+  <property name="text-beside-icons" type="bool" value="true"/>
   <property name="last" type="empty">
     <property name="window-height" type="int" value="400"/>
     <property name="window-width" type="int" value="400"/>
     <property name="pane-position" type="int" value="180"/>
   </property>
-  <property name="icon-view" type="bool" value="true"/>
-  <property name="text-beside-icons" type="bool" value="true"/>
-  <property name="enable-service" type="bool" value="false"/>
-  <property name="always-center" type="bool" value="true"/>
-  <property name="hide-category-pane" type="bool" value="true"/>
-  <property name="item-icon-size" type="uint" value="0"/>
-  <property name="sort-by-frecency" type="bool" value="false"/>
-  <property name="remember-category" type="bool" value="false"/>
 </channel>

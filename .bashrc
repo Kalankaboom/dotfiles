@@ -118,3 +118,6 @@ fi
 export PATH=$PATH:/home/kalankaboom/.cargo/bin
 
 export FZF_DEFAULT_OPTS='--color bg+:5,border:15,spinner:14,hl:6,prompt:13,info:12,pointer:14,marker:11,fg+:15,hl+:6,gutter:-1'
+
+# export LIBVA_DRIVER_NAME=i965
+# export VDPAU_DRIVER=va_gl
