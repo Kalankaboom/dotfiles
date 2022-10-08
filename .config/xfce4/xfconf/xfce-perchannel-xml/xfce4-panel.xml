@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <value type="int" value="3"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="16"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="5"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="mode" type="uint" value="2"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.750000"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=25;y=1428"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="15"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.750000"/>
+      </property>
+      <property name="icon-size" type="uint" value="15"/>
+      <property name="length" type="uint" value="16"/>
+    </property>
+    <property name="panel-3" type="empty">
+      <property name="position" type="string" value="p=7;x=17;y=755"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.750000"/>
+      </property>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="4"/>
+      </property>
+      <property name="length" type="uint" value="2"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4cdep” active: 4cdep (61%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (84%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (71%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (58%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (60%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (50%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (66%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (57%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (53%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (33%)"/>
+        <value type="string" value="configuring wi-fi network connection “epfl”…"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (63%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (59%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (45%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (62%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (62%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (42%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (38%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (43%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (52%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (51%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (59%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (63%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (42%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (69%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (56%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (57%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (60%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (37%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (41%)"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (47%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (40%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (58%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (54%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (44%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (53%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (68%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (56%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (51%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (61%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (63%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (50%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (66%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (60%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (57%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (70%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (49%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (65%)"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (62%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (73%)"/>
+      </property>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="22"/>
+      <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance1393;firefox.instance1409;firefox.instance1417;firefox.instance16364;firefox.instance3454;spotify;vlc"/>
+    </property>
+    <property name="plugin-8" type="string" value="power-manager-plugin"/>
+    <property name="plugin-9" type="string" value="notification-plugin"/>
+    <property name="plugin-10" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-format" type="string" value="%H%n%M"/>
+    </property>
+    <property name="plugin-15" type="string" value="whiskermenu"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="6"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>

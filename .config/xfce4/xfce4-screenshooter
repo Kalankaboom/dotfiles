@@ -1,0 +1,12 @@
+app=/usr/lib/firefox-esr/firefox-esr
+last_user=
+screenshot_dir=file:/home/kalankaboom/Pictures/Screenshots
+action=2
+delay=0
+region=1
+show_mouse=0
+last_extension=png
+enable_imgur_upload=true
+show_in_folder=false
+show_border=1
+

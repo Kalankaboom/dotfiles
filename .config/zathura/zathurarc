@@ -1,0 +1,20 @@
+set selection-clipboard clipboard
+
+set default-bg "rgba(0, 0, 0, 0.85)"
+set highlight-color "#FF00FF"
+
+set statusbar-fg "#FFFFFF"
+set statusbar-bg "rgba(0, 0, 0, 0.85)"
+
+set inputbar-bg "rgba(0, 0, 0, 0.85)"
+set inputbar-fg "#FF00FF"
+
+set notification-bg "rgba(0, 0, 0, 0.85)"
+set notification-fg "#00FFFF"
+
+set recolor "true"
+set recolor-keephue "true"
+set recolor-reverse-video "true"
+
+set recolor-lightcolor "rgba(0, 0, 0, 0)"
+set recolor-darkcolor "#FFFFFF"
