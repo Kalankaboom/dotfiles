@@ -79,6 +79,46 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4cdep” active: 4cdep (61%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (84%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (71%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (58%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (60%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (50%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (66%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (57%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (53%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (33%)"/>
+        <value type="string" value="configuring wi-fi network connection “epfl”…"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (63%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (59%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (45%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (62%)"/>
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (62%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (42%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (38%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (43%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (52%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (51%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (59%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (63%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (42%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (69%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (56%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (57%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (60%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (37%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (41%)"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (47%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (40%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (58%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (54%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (44%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (53%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="blueman-tray"/>
         <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (68%)"/>
         <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (56%)"/>
         <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (51%)"/>
@@ -105,7 +145,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1393;firefox.instance1409;firefox.instance16364;firefox.instance3454;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="firefox.instance1393;firefox.instance1409;firefox.instance1417;firefox.instance16364;firefox.instance3454;spotify;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="notification-plugin"/>

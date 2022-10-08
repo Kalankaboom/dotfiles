@@ -358,7 +358,7 @@ function! Latautocompfunc()
 	if g:autocomplat
 		augroup latcomp
 			autocmd BufWritePost *.tex silent! AsyncRun! latexmk -outdir=%:p:h -pdf %:p
-			autocmd QuitPre *.tex AsyncRun! rm %:p:r.bcf %:p:r.fls %:p:r.aux %:p:r.bbl %:p:r.blg %:p:r.fdb_latexmk %:p:r.log %:p:r.run.xml %:p:r.toc
+			autocmd QuitPre *.tex AsyncRun! rm %:p:r.bcf %:p:r.fls %:p:r.bcf %:p:r.out %:p:r.aux %:p:r.bbl %:p:r.blg %:p:r.fdb_latexmk %:p:r.log %:p:r.run.xml %:p:r.toc
 		augroup end
 		if filereadable(expand("%:p:r.pdf"))
 			" AsyncRun! -post=call\ Splitzathura() zathura --fork %:p:r.pdf

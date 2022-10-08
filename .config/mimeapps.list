@@ -1,0 +1,19 @@
+[Default Applications]
+application/ecmascript=nvim.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-ZT9VS1.desktop
+message/rfc822=userapp-Thunderbird-ZT9VS1.desktop
+x-scheme-handler/mid=userapp-Thunderbird-ZT9VS1.desktop
+
+[Added Associations]
+application/ecmascript=nvim.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-ZT9VS1.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-ZT9VS1.desktop;
+application/pgp-message=nvim.desktop;
+video/mp4=vlc.desktop;
+application/pdf=atril.desktop;org.pwmt.zathura-pdf-poppler.desktop;
+text/plain=nvim.desktop;
+image/jpeg=org.xfce.ristretto.desktop;

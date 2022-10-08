@@ -13,7 +13,8 @@ alias update='sudo apt update;
 	# flatpak update;
 	# sudo snap refresh;
 
-alias asciiquarium='snap run asciiquarium'
+alias zat='zathura --fork'
+alias n='nvim'
 
 function clock() {
 	str=$(curl -s wttr.in/?format="%l:+%C+%t+%p\n");
@@ -37,7 +38,7 @@ function note-upload(){
 	git add tex -- ':!*.pdf';
 	git add md -- ':!*.pdf';
 	git add Quick_Notes -- ':!*.pdf';
-	git add cpp;
+	git add cpp -- '*.cpp';
 	git add pdf;
 	printf "\n";
 	git commit -m "$(date +'%d/%m/%Y')";

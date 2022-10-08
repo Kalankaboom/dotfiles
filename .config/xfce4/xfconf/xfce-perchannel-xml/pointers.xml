@@ -7,4 +7,16 @@
     <property name="Threshold" type="int" value="1"/>
     <property name="Acceleration" type="double" value="8.000000"/>
   </property>
+  <property name="PIXA385400_093A0274_Touchpad" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="ReverseScrolling" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="5.000000"/>
+  </property>
+  <property name="PIXA385400_093A0274_Mouse" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="ReverseScrolling" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="5.000000"/>
+  </property>
 </channel>

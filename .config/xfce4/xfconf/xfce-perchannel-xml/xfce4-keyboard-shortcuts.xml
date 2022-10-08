@@ -59,10 +59,10 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;m" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;w" type="string" value="exo-open --launch WebBrowser"/>
       <property name="Super_L" type="string" value="xfce4-popup-whiskermenu"/>
-      <property name="&lt;Primary&gt;AudioMedia" type="empty">
+      <property name="&lt;Primary&gt;AudioMedia" type="string" value="nmcli radio wifi off">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;AudioMedia" type="empty">
+      <property name="&lt;Primary&gt;&lt;Shift&gt;AudioMedia" type="string" value="nmcli radio wifi on">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="AudioMedia" type="string" value=".custom/brightness-up.sh"/>

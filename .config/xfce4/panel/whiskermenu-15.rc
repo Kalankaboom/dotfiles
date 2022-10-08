@@ -1,5 +1,5 @@
-favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,xfce-settings-manager.desktop
-recent=xfce-settings-manager.desktop,spotify.desktop,vprerex.desktop,xfce4-web-browser.desktop,xfce4-mail-reader.desktop,thunderbird.desktop,blueman-manager.desktop,xfce4-file-manager.desktop
+favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,xfce-settings-manager.desktop,gimp.desktop,spotify.desktop
+recent=xfce-settings-manager.desktop,xfce4-sensors.desktop,org.xfce.mousepad-settings.desktop,synaptic.desktop,mpv.desktop,xfce4-dict.desktop,xfce4-mime-settings.desktop,vim.desktop,xfburn.desktop,spotify.desktop
 button-title=
 button-icon=org.xfce.panel.whiskermenu
 button-single-row=false
