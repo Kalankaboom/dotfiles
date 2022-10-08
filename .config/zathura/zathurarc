@@ -1,5 +1,10 @@
 set selection-clipboard clipboard
 
+set index-fg "#FFFFFF"
+set index-bg "#000000"
+set index-active-fg "#000000"
+set index-active-bg "#FF00FF"
+
 set default-bg "rgba(0, 0, 0, 0.85)"
 set highlight-color "#FF00FF"
 
