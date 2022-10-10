@@ -79,6 +79,14 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “fmel” active: fmel (56%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (65%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (68%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (49%)"/>
+        <value type="string" value="wi-fi network connection “4cdep” active: 4cdep (55%)"/>
+        <value type="string" value="wi-fi network connection “4cdep” active: 4cdep (62%)"/>
+        <value type="string" value="wi-fi network connection “4cdep” active: 4cdep (66%)"/>
+        <value type="string" value="requesting a wi-fi network address for “4cdep”…"/>
         <value type="string" value="wi-fi network connection “4cdep” active: 4cdep (61%)"/>
         <value type="string" value="wi-fi network connection “epfl” active: epfl (84%)"/>
         <value type="string" value="wi-fi network connection “epfl” active: epfl (71%)"/>
@@ -145,7 +153,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1393;firefox.instance1409;firefox.instance1417;firefox.instance16364;firefox.instance3454;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="firefox.instance1393;firefox.instance1409;firefox.instance1417;firefox.instance16364;firefox.instance1865;firefox.instance2861;firefox.instance3454;spotify;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="notification-plugin"/>

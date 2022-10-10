@@ -1,4 +1,5 @@
 set selection-clipboard clipboard
+set window-icon ~/.icons/candy-icons/apps/scalable/zathura.svg
 
 set index-fg "#FFFFFF"
 set index-bg "rgba(0, 0, 0, 0)"

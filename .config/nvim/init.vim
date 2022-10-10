@@ -641,11 +641,35 @@ local kind_icons = {
 
   -- Setup lspconfig.
   local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-  -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
+
   require('lspconfig')['texlab'].setup {
    capabilities = capabilities
   }
   require('lspconfig')['clangd'].setup {
    capabilities = capabilities
   }
+  
+  vim.o.updatetime = 250
+  vim.cmd [[autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
+
+  vim.g.diagnostics_active = true
+	function _G.toggle_diagnostics()
+	  if vim.g.diagnostics_active then
+		vim.g.diagnostics_active = false
+		-- vim.lsp.diagnostic.clear(0)
+		vim.lsp.handlers["textDocument/publishDiagnostics"] = function() end
+	  else
+		vim.g.diagnostics_active = true
+		vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+		  vim.lsp.diagnostic.on_publish_diagnostics, {
+			virtual_text = true,
+			signs = true,
+			underline = true,
+			update_in_insert = false,
+		  }
+		)
+	  end
+	end
+	vim.api.nvim_set_keymap('n', '<A-t>', ':call v:lua.toggle_diagnostics()<CR>',  {noremap = true, silent = true})
+
 EOF
