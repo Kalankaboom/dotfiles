@@ -79,6 +79,10 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (72%)"/>
+        <value type="string" value="wi-fi network connection “4cdep2” active: 4cdep2 (52%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (43%)"/>
+        <value type="string" value="wi-fi network connection “epfl” active: epfl (79%)"/>
         <value type="string" value="wi-fi network connection “fmel” active: fmel (56%)"/>
         <value type="string" value="wi-fi network connection “epfl” active: epfl (65%)"/>
         <value type="string" value="wi-fi network connection “epfl” active: epfl (68%)"/>
@@ -153,7 +157,7 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1393;firefox.instance1409;firefox.instance1417;firefox.instance16364;firefox.instance1865;firefox.instance2861;firefox.instance3454;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="firefox.instance12836;firefox.instance1393;firefox.instance1409;firefox.instance1417;firefox.instance16364;firefox.instance18216;firefox.instance1865;firefox.instance2861;firefox.instance3454;firefox.instance3952;spotify;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="notification-plugin"/>
